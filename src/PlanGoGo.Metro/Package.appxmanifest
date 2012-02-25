@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  
+  <Identity Name="81215021-4207-4a3e-800c-0399daa10339"
+            Publisher="CN=lee.ryan.campbell"
+            Version="1.0.0.0" />
+  
+  <Properties>
+    <DisplayName>PlanGoGo.Metro</DisplayName>
+    <PublisherDisplayName>lee.ryan.campbell</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+    <Description>PlanGoGo.Metro</Description>
+  </Properties>
+  
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+  
+  <Applications>
+    <Application Id="App" 
+        Executable="plangogo.metro.exe" 
+        EntryPoint="PlanGoGo.Metro.App">
+        <VisualElements 
+            DisplayName="PlanGoGo.Metro"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="PlanGoGo.Metro"
+            ForegroundText="light"
+            BackgroundColor="#222222">
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,27 @@
+﻿Split work into two parts
+
+RoadMap
+	A collection of projects
+	Calculates 
+		Rolledup Cost, 
+		Fastest Delivery
+		Order Of Delivery
+
+Projects
+	Projects are high level concepts
+	Projects have dependencies on each other
+	Can have diamond dependency
+	Have name, description, assignedTo, Priority
+	Are broken down by milestones
+	When composed can produce a Plan/Roadmap
+	Optional EarliestStartDate
+		
+Milestones
+	Name/description, AssignedTo
+	Milestones (sub milestones)
+	Status (TODO, Doing, Done, Accepted)
+	[Calc] EstimatedCost, RemainingCost
+		//in setter check children, then call SetterImp
+		//When children updated, just call setterImp
+	Urgency (ordinal sort)
+	Importance (MoSCoW)

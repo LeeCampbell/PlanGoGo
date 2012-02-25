@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanGoGo.Metro", "src\PlanGoGo.Metro\PlanGoGo.Metro.csproj", "{EF512681-3555-45E7-91BD-FAF2F5B7221C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanGoGo.ProjectPlan", "src\PlanGoGo.ProjectPlan\PlanGoGo.ProjectPlan.csproj", "{4A6B3EC0-22FF-474E-9F1E-737D2A4FBC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanGoGo.ProjectPlan.Tests", "test\PlanGoGo.ProjectPlan.Tests\PlanGoGo.ProjectPlan.Tests.csproj", "{82DF082D-5475-4057-B44F-D8BED1DE301A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6B3EC0-22FF-474E-9F1E-737D2A4FBC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6B3EC0-22FF-474E-9F1E-737D2A4FBC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B3EC0-22FF-474E-9F1E-737D2A4FBC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6B3EC0-22FF-474E-9F1E-737D2A4FBC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DF082D-5475-4057-B44F-D8BED1DE301A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF512681-3555-45E7-91BD-FAF2F5B7221C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+#Ignore standard .net directories (obj & bin)
+bin/
+obj/
+
+#ignore standard .net files (.suo .csuser)
+*.suo
+
+#ignore resharper caches (_Resharper.*/)
+_Resharper.*/
